@@ -4,22 +4,40 @@ body
 }
 
 
-h1,h2,h3,p
+h1,h2,h3,p,li
 {
   color: white;
 }
 
-div
+
+nav,ul.popular-brand 
 {
   background-color: #ff1387;
+  
 }
 
+.container {
+  width: 1160px;
+  margin: 0 auto;
+}
 
+ul.user-functions-middle li,ul.user-functions-bottom li
+ {
+   display: inline-block; /* Отображать как строчный элемент */
+   
+ 
+  }
 
+  
+ ul.popular-brand li 
+ {
+   display: inline-block; /* Отображать как строчный элемент */
+   
+ 
+  }
 
-
-
-.visually-hidden {
+.visually-hidden 
+{
   position: absolute;
   width: 1px;
   height: 1px;
