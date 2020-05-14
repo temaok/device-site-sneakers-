@@ -1,6 +1,8 @@
 body
 {
   background-color: black;
+  font-family: "Gilroy";
+  font-size: 20px;
 }
 
 
@@ -10,7 +12,7 @@ h1,h2,h3,p,li
 }
 
 
-nav,ul.popular-brand 
+nav,ul.popular-brand li
 {
   background-color: #ff1387;
   
@@ -28,13 +30,41 @@ ul.user-functions-middle li,ul.user-functions-bottom li
  
   }
 
+
+  ul.bestoffer li, ul.partners-list li
+  {
+    display: inline-block; 
+    
+  }
   
- ul.popular-brand li 
+  ul.partners-list li 
+{
+  background-color: honeydew;
+}
+ 
+  
+ ul.popular-brands li 
  {
-   display: inline-block; /* Отображать как строчный элемент */
+   display: inline-block; 
    
  
   }
+
+  div.service-control
+{
+  background-color: #e5e5e5;
+}
+ 
+
+  div.service-control ul
+  {
+    display: inline-block; 
+   }
+
+  ul.service-description p,h3,li
+   {
+     color: #ff1387;
+   }
 
 .visually-hidden 
 {
