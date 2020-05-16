@@ -9,8 +9,12 @@ h1,h2,h3,p,li {
   color: white;
 }
 
+div.header-block {
+border: 1px solid #ccc;
 
-nav,
+
+}
+
 ul.popular-brands li,
 footer {
   background-color: #ff1385de;
@@ -25,51 +29,44 @@ footer {
 
 
 ul.user-functions-middle li,ul.user-functions-bottom li, ul.footer-top-line li,
-  ul.footer-middle-line li {
-   display: inline-block; /* Отображать как строчный элемент */
-   
- 
-  }
-
-
-  ul.bestoffer li, ul.partners-list li
-  {
-    display: inline-block; 
-    
-  }
+ul.footer-middle-line li {
+  display: inline-block; /* Отображать как строчный элемент */
   
-  ul.partners-list li 
-{
+
+}
+
+
+ul.bestoffer li, ul.partners-list li {
+  display: inline-block; 
+  
+}
+  
+ul.partners-list li {
   background-color: honeydew;
 }
  
   
- ul.popular-brands li 
- {
-   display: inline-block; 
-   
- 
-  }
+ul.popular-brands li {
+  display: inline-block; 
 
-  div.service-control
-{
+
+}
+
+  div.service-control {
   background-color:#C0C0C0;
   
 }
  
 
-  div.service-control ul
-  {
-    display: inline-block; 
-   }
+div.service-control ul {
+  display: inline-block; 
+}
+  
+ul.service-description p,h3,li {
+  color: #ff1387;
+}
 
-  ul.service-description p,h3,li
-   {
-     color: #ff1387;
-   }
-
-.visually-hidden 
-{
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
