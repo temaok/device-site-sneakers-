@@ -1,20 +1,19 @@
-body
-{
+body {
   background-color: black;
   font-family: "Gilroy";
   font-size: 20px;
 }
 
 
-h1,h2,h3,p,li
-{
+h1,h2,h3,p,li {
   color: white;
 }
 
 
-nav,ul.popular-brand li
-{
-  background-color: #ff1387;
+nav,
+ul.popular-brands li,
+footer {
+  background-color: #ff1385de;
   
 }
 
@@ -23,8 +22,10 @@ nav,ul.popular-brand li
   margin: 0 auto;
 }
 
-ul.user-functions-middle li,ul.user-functions-bottom li
- {
+
+
+ul.user-functions-middle li,ul.user-functions-bottom li, ul.footer-top-line li,
+  ul.footer-middle-line li {
    display: inline-block; /* Отображать как строчный элемент */
    
  
@@ -52,7 +53,8 @@ ul.user-functions-middle li,ul.user-functions-bottom li
 
   div.service-control
 {
-  background-color: #e5e5e5;
+  background-color:#C0C0C0;
+  
 }
  
 
@@ -77,3 +79,4 @@ ul.user-functions-middle li,ul.user-functions-bottom li
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
