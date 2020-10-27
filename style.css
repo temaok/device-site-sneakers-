@@ -10,9 +10,7 @@ h1,h2,h3,p,li {
 }
 
 div.header-block {
-border: 1px solid #ccc;
-
-
+ border: 1px solid #ccc;
 }
 
 ul.popular-brands li,
@@ -22,13 +20,17 @@ footer {
 }
 
 .container {
-  width: 1160px;
+  width: 1000px;
   margin: 0 auto;
 }
 
+.bestoffer {
+  padding: 0;
+}
 
-
-ul.user-functions-middle li,ul.user-functions-bottom li, ul.footer-top-line li,
+ul.user-functions-middle li,
+ul.user-functions-bottom li,
+ul.footer-top-line li,
 ul.footer-middle-line li {
   display: inline-block; /* Отображать как строчный элемент */
   
