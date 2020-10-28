@@ -1,4 +1,23 @@
 body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "PT Sans Narrow", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*
+body {
   background-color: black;
   font-family: "Gilroy";
   font-size: 20px;
@@ -32,7 +51,7 @@ ul.user-functions-middle li,
 ul.user-functions-bottom li,
 ul.footer-top-line li,
 ul.footer-middle-line li {
-  display: inline-block; /* Отображать как строчный элемент */
+  display: inline-block; 
   
 
 }
@@ -78,4 +97,6 @@ ul.service-description p,h3,li {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+*/
 
