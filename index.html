@@ -13,257 +13,232 @@
     </head>
     <body>
       <header class="main-header">
-        <nav>
-          <a class="logo header logo">DEVICE</a>
-            <form class="search-form">
-              <input type="search" size="30" placeholder="Поиск по сайту">
-            </form>
-            <ul class="user-functions-middle">
-              <li>
-                <a href="login.html">
-                  <p>Войти</p>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <p>Сравнить</p>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <p>Корзина</p>
-                </a>
-              </li>
-            </ul>
-
-          
-          
-            <a class="logo">
-              <img src="img/logo2.png" alt="Логотип магазина STREMOBZOR STORE"  width="20% ">
-            </a>
-          
-            <ul class="user-functions-bottom">
-              <li>
-                <a href="catalog.html"><p>Каталог товаров</p></a>
-              </li>
-              <li>
-                <a href="#"><p>Доставка</p></a>
-              </li>
-              <li>
-                <a href="#"><p>Гарантия</p></a>
-              </li>
-              <li>
-                <a href="#"><p>Контакты</p></a>
-              </li>
-            </ul>
-        </nav>
+        <nav class="main-navigation">
+          <form class="search-form">
+              <input type="search" size="20" placeholder="Поиск по сайту">
+          </form>
+          <ul class="user-functions">
+            <li>
+              <a href="login.html">
+                Войти
+              </a>
+            </li>
+            <li>
+              <a href="#">
+               Сравнить
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Корзина
+              </a>
+            </li>
+          </ul>
+            
+          <ul class="user-navigations">
+            <li>
+              <a href="catalog.html">Каталог товаров</a>
+            </li>
+            <li>
+              <a href="#">Доставка</a>
+            </li>
+            <li>
+              <a href="#">Гарантия</a>
+            </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+          <a class="logo">
+            <img src="img/logo2.png" alt="Логотип магазина STREMOBZOR STORE"  width="15% ">
+          </a>
+          </nav>
       </header>
 
       <main>
-        <h1 class="visually-hidden"> Интернет-магазин кроссовок STREMOBZOR STORE</h1>
-        <div class="container">
-        <section>
-          <h2 class="visually-hidden">Лучшие предложения</h2>
-          <ul class="bestoffer">
-            <li>
+        <div class="index-columns">
+          <section class="column-bestoffer">
+          <h1 class="visually-hidden"> Интернет-магазин кроссовок STREMOBZOR STORE</h1>
+          <h2>Лучшие предложения</h2>
+          <ul class="bestoffer-list">
+            <li class="bestoffer-item">
               
-              <img src="img/adidas-i5923.png" width="240" height="240" alt="1">
+              <img src="img/adidas-i5923.png" width="240px" height="240" alt="1" class="img-circle">
               <p class="price">4000р.</p>
               
             </li>
-            <li> 
+            <li class="bestoffer-item"> 
               
-              <img src="img/puma-r698.png" width="240" height="240" alt="1">
+              <img src="img/puma-r698.png" width="240" height="240" alt="1" class="img-circle">
               <p class="price">4000р.</p>
               
             </li> 
-            <li> 
-              <img src="img/adidas-350v2.png" width="240" height="240" alt="1">
+            <li class="bestoffer-item"> 
+              <img src="img/adidas-350v2.png" width="240" height="240" alt="1" class="img-circle">
               <p class="price">4000р.</p>
             </li>
-            <li> 
-              <img src="img/asics-gel-lyte-sanze.png" width="240" height="240" alt="1">
+            <li class="bestoffer-item"> 
+              <img src="img/asics-gel-lyte-sanze.png" width="240" height="240" alt="1" class="img-circle">
               <p class="price">4000р.</p>
             </li>
           </ul>
-        </section>
+          </section>
+
+          <section class="column-brands">
+            
+              <h2 class="visually-hidden">Популярные бренды</h2>
+              <ul class="brands-list">
+                <li class="brands-item">
+                  <a href="catalog.html">
+                    <p>Adidas</p>
+                  </a>
+                </li>
+                <li class="brands-item">
+                  <a href="catalog.html">
+                    <p>Puma</p>
+                  </a>
+                </li>
+                <li class="brands-item">
+                  <a href="catalog.html">
+                    <p>Asics</p>
+                  </a>
+                </li>
+                <li class="brands-item">
+                  <a href="catalog.html">
+                    <p>Saucony</p>
+                  </a>
+                </li>
+                <li class="brands-item">
+                  <a href="catalog.html">
+                    <p>Premiata</p>
+                  </a>
+                </li>
+              </ul>
+            
+          </section>
+
+          <section class="column-advantages">
+            <h2>Наши преимущества</h2>
+            <ul class="advantages-list">
+              <li class="advantages-item">
+                <h3>Доставка</h3>
+                <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду <br>
+                 совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на <br>
+                 ваш этаж.</p>
+              </li>
+              <li class="advantages-item">
+                <h3>Гарантия</h3>
+                <p>Если из-за возгорания купленного у нас товара у вас сгорит дом<br> 
+                — не переживайте, мы выдадим вам новый. Товар, не дом, конечно же.</p>
+              </li>
+              <li class="advantages-item">
+                <h3>Кредит</h3>
+                <p>Залезть в долговую яму стало проще! Кредитные консультанты подберут<br> 
+                для вас наиболее выгодные условия кредита. Выгодные для нашего банка, <br>
+                разумеется.</p>
+              </li>
+            </ul>
+          </section>
+
+
+          <section class="column-partners">
+            
+              <h2 class="visually-hidden">Наши партнеры</h2>
+              <ul class="partners-list">
+                <li class="partners-item">
+                  <a href="#">
+                    <img src="img/logo-1.png" alt="1 logo" weight="260" height="100">
+                  </a>
+                </li>
+                <li class="partners-item">
+                  <a href="#">
+                    <img src="img/logo-2.png" alt="2 logo" weight="260" height="100">
+                  </a>
+                </li>
+                <li class="partners-item">
+                  <a href="#">
+                    <img src="img/logo-3.png" alt="3 logo" weight="260" height="100">
+                  </a>
+                </li>
+                <li class="partners-item">
+                  <a href="#">
+                    <img src="img/logo-4.png" alt="4 logo" weight="260" height="100">
+                  </a>
+                </li>
+              </ul>
+          </section>
+
+          <section class="column-delivery">
+            
+              <h2 class="section-title">О нас</h2>
+              <p>Огромный выбор кроссовок не оставит равнодушным сникерхеда, который 
+              есть в каждом из нас.</p>
+              <p>Мы можем доставить ваш товар в самые отдаленные точки России! STREMOBZOR STORE
+              работает со многими транспортными компаниями:</p>
+              <ul>
+                <li>
+                  Деловые Линии
+                </li>
+                <li>
+                  Автотрейдинг
+                </li>
+                <li>
+                  CDEK
+                </li>
+              </ul>
+              <a href="#">Подробнее о нас </a>
+            
+          </section>
+
+          <section class="column-contacts">
+            
+              <h2 class="section-title">Контакты</h2>
+              <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете
+                проверить работоспособность покупки. Всякое бывает.</p>
+              <a href="#">
+                <img src="img/map.jpg" width="560" height="222">
+              </a>
+              <p><a href="#">Подробнее о нас </a></p>
+            
+          </section>
         </div>
-        <section>
-          <div class="container">
-            <h2 class="visually-hidden">Популярные бренды</h2>
-            <ul class="popular-brands">
-              <li>
-                <a href="catalog.html">
-                 <p>Adidas</p>
-                </a>
-              </li>
-              <li>
-                <a href="catalog.html">
-                  <p>Puma</p>
-                </a>
-              </li>
-              <li>
-                <a href="catalog.html">
-                  <p>Asics</p>
-                </a>
-              </li>
-              <li>
-                <a href="catalog.html">
-                  <p>Saucony</p>
-                </a>
-              </li>
-              <li>
-                <a href="catalog.html">
-                  <p>Premiata</p>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </section>
-
-        <section class=services>
-          <div class="container">
-            <h2 class="visually-hidden">Услуги</h2>
-            <div class=service-control>
-              <ul class="service-list">
-                <li>
-                  <button>Доставка</button>
-                </li>
-                <li>
-                  <button>Гарантия</button>
-                </li>
-                <li>
-                  <button>Кредит</button>
-                </li>
-              </ul>
-              <ul class="service-description">
-                <li>
-                  <h3>Доставка</h3>
-                  <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду <br>
-                   совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на <br>
-                   ваш этаж.</p>
-                </li>
-                <li>
-                  <h3>Гарантия</h3>
-                  <p>Если из-за возгорания купленного у нас товара у вас сгорит дом<br> 
-                  — не переживайте, мы выдадим вам новый. Товар, не дом, конечно же.</p>
-                </li>
-                <li>
-                  <h3>Кредит</h3>
-                  <p>Залезть в долговую яму стало проще! Кредитные консультанты подберут<br> 
-                  для вас наиболее выгодные условия кредита. Выгодные для нашего банка, <br>
-                  разумеется.</p>
-                </li>
-              </ul>
-            </div>
-          </div>
-        <section>
-
-        <section>
-
-
-        </section>
-
-        <section>
-          <div class="container">
-            <h2 class="visually-hidden">Наши партнеры</h2>
-            <ul class="partners-list">
-              <li>
-                <a href="#">
-                  <img src="img/logo-1.png" alt="1 logo" weight="260" height="100">
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="img/logo-2.png" alt="2 logo" weight="260" height="100">
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="img/logo-3.png" alt="3 logo" weight="260" height="100">
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="img/logo-4.png" alt="4 logo" weight="260" height="100">
-                </a>
-              </li>
-            </ul>
-          </div>
-        </section>>
-
-        <section>
-          <div class="container">
-            <h2 class="section-title">О нас</h2>
-            <p>Огромный выбор кроссовок не оставит равнодушным сникерхеда, который 
-            есть в каждом из нас.</p>
-            <p>Мы можем доставить ваш товар в самые отдаленные точки России! STREMOBZOR STORE
-            работает со многими транспортными компаниями:</p>
-            <ul>
-              <li>
-                Деловые Линии
-              </li>
-              <li>
-                Автотрейдинг
-              </li>
-              <li>
-                CDEK
-              </li>
-            </ul>
-            <a href="#">Подробнее о нас </a>
-          </div>
-        </section>
-        <section>
-          <div class="container">
-            <h2 class="section-title">Контакты</h2>
-            <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете
-              проверить работоспособность покупки. Всякое бывает.</p>
-            <a href="#">
-              <img src="img/map.jpg" width="560" height="222">
-            </a>
-            <p><a href="#">Подробнее о нас </a></p>
-          </div>
-        </section>
       </main>
 
       <footer>
-        <div class="container">
-          <div class="footer-top">
-            <ul class="footer-top-line">
-              <li>
-                <a href="#top">
-                  <p>STREMOBZOR STORE</p>
-                </a>
-              </li>
-              <li>
-                <a href="login.html">
-                  <p>Войти</p>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <p>Сравнить</p>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <p>Корзина</p>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="footer-middle">
-            <ul class="footer-middle-line">
-              <li>
-                <p>г. Тюмень, ул. Строителей, 15</p>
-              </li>
-              
-            </ul>
-          </div>
-          <div class="footer-bottom">
-          </div>
-        </div>
+        <section class="main-navigation">
+        <ul class="user-functions">
+          <li>
+            <a href="login.html">
+              Войти
+            </a>
+          </li>
+          <li>
+            <a href="#">
+             Сравнить
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Корзина
+            </a>
+          </li>
+        </ul>
+          
+        <ul class="user-navigations">
+          <li>
+            <a href="catalog.html">Каталог товаров</a>
+          </li>
+          <li>
+            <a href="#">Доставка</a>
+          </li>
+          <li>
+            <a href="#">Гарантия</a>
+          </li>
+          <li>
+            <a href="#">Контакты</a>
+          </li>
+        </ul>
+      </section>
       </footer>
     </body>
-    
   </html>
