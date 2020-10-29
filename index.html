@@ -143,7 +143,7 @@
 
           <section class="column-partners">
             
-              <h2 class="visually-hidden">Наши партнеры</h2>
+              <h2>Наши партнеры</h2>
               <ul class="partners-list">
                 <li class="partners-item">
                   <a href="#">
@@ -168,9 +168,9 @@
               </ul>
           </section>
 
-          <section class="column-delivery">
+          <section class="column-about">
             
-              <h2 class="section-title">О нас</h2>
+              <h2>О нас</h2>
               <p>Огромный выбор кроссовок не оставит равнодушным сникерхеда, который 
               есть в каждом из нас.</p>
               <p>Мы можем доставить ваш товар в самые отдаленные точки России! STREMOBZOR STORE
@@ -196,7 +196,7 @@
               <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете
                 проверить работоспособность покупки. Всякое бывает.</p>
               <a href="#">
-                <img src="img/map.jpg" width="560" height="222">
+                <img src="img/map.jpg" width="460" atl="STREMOBZOR STORE АДРЕС">
               </a>
               <p><a href="#">Подробнее о нас </a></p>
             
@@ -240,5 +240,41 @@
         </ul>
       </section>
       </footer>
+
+      <section class="modal modal-login">
+        <h2>Личный кабинет</h2>
+        <p>Пожалуйста введите свой логин и пароль</p>
+        <form class="login-form" action="#" method="post">
+          <p>
+            <label class="visually-hidden" for="user-login">Логин</label>
+            <input calss="login-icon-user" id="user-login" type="text" 
+            name="login"  placeholder="example@mail.ru">
+            </p>
+          <p>
+            <label class="visually-hidden" for="user-password">Пароль</label>
+            <input class="login-icon-password" id="user-password" type="password"
+            name="password" placeholder="********">
+          </p>
+          <p class="login-password-info">
+            <label class="login-checkbox">
+              <input class="visually-hidden" type="checkbox" name="remember">
+              <span class="checkbox-indicator"></span>
+              Запомните меня
+            </label>
+          </p>
+          <p>
+            <button class="button" type="submit">Войти</button>
+          </p>
+        </form>  
+        <button class="modal-close" type="button">Закрыть</button>
+      </section>
+
+      <section class="modal modal-map">
+        <h2 class="visually-hidden"> Как до нас добраться </h2>
+        <p>
+          <img src="img/map.jpg" width="780" height="560" atl="STREMOBZOR STORE АДРЕС">
+        </p>
+        <button class="modal-close" type="button">Закрыть</button>
+      </section> 
     </body>
   </html>

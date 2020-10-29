@@ -16,16 +16,6 @@ a {
   text-decoration: none;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
 
 /* Header */
 .main-navigation {
@@ -66,7 +56,9 @@ a {
 
 /*Main */
 /*Main column-bestoffer */
-
+.column-bestoffer h2 {
+  font-size: 25px;
+}
 
 .index-columns {
   color: white;
@@ -121,7 +113,7 @@ a {
 }
 
 .column-advantages h2 {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .column-advantages h3 {
@@ -133,6 +125,10 @@ a {
 }
 
 /*Main column-partners*/
+.column-partners h2 {
+  font-size: 20px;
+  color: #ff1385de;
+}
 
 .partners-list {
   list-style: none;
@@ -144,8 +140,50 @@ a {
   margin: 10px;
 }
 
+/*Main column-about*/
+.column-about a {
+  color: white;
+  text-decoration: underline;
+}
+
+.column-about h2 {
+  font-size: 20px;
+  color: #ff1385de;
+}
+
+.column-about p {
+  font-size: 16px;
+}
+
+/*Main column-contacts*/
 
 
+.column-contacts h2 {
+  font-size: 20px;
+  color: #ff1385de;
+}
+ .column-contacts p,
+ .column-contacts p a {
+   font-size: 16px;
+   color: white;
+ }
+
+ /* Modal */
+.modal {
+  background-color: #ff1385de;
+}
+
+.modal h2 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  font: inherit;
+  color: black;
+  text-transform: uppercase;
+}
 
 /*
 body {
